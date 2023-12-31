@@ -19,7 +19,7 @@ export default function Home() {
   console.log(`snapdata`, snapdata?.reels_media?.[0]);
   return (
     <div className='h-screen'>
-      <div className='justify-center space-y-3 flex flex-col items-center w-screen overflow-hidden'>
+      <div className='justify-center space-y-3 mt-10 flex flex-col items-center w-screen overflow-hidden'>
         <h1>Masukkan username</h1>
         <input
           className='text-black'
